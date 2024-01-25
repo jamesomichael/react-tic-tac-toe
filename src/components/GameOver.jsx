@@ -1,5 +1,3 @@
-import React from 'react';
-
 const GameOver = (props) => {
 	const { winner, onRestart } = props;
 	return (

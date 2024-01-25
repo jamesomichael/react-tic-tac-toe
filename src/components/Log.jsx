@@ -1,8 +1,5 @@
-import React from 'react';
-
 const Log = (props) => {
 	const { turns } = props;
-
 	return (
 		<ol id="log">
 			{turns.map(({ player, square: { row, col } }) => (
